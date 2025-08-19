@@ -2,3 +2,5 @@ Git and GitHub commands
 -push the application into the remote repository
 -pull the code from remote repository
 -changes in remote repository
+-changes in local system
+
