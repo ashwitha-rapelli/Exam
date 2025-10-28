@@ -8,7 +8,7 @@ def index():
 
 @app.route('/submit',methods=['POST'])
 def submit():
-    name=request.form("name")
+    name=request.form['name']
     return render_template("greeting.html",name=name)
 
 if(__name__=="__main__"):
